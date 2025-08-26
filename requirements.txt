@@ -19,7 +19,7 @@ typing-inspection==0.4.1
 typing_extensions==4.15.0
 
 # Image / CV
-numpy>=1.26.0
+numpy
 pillow>=10.0.0
 opencv-python-headless>=4.8.0
 
