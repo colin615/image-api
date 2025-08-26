@@ -31,3 +31,8 @@ async def process_image(file: UploadFile = File(...)):
 
     file_url = f"/uploads/{new_filename}"
     return JSONResponse(content={"file_url": file_url})
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="127.0.0.1", port=3400, reload=False)
